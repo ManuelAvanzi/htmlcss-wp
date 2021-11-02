@@ -48,11 +48,36 @@ a:hover{
     background-color: #ccc;
 }
 
+
+
+/* jumbo class */
 .jumbo{
+    border-radius: 18px;
+    background: url(./img/banner.jpg);
+    background-size: cover;
+    width: 100%;
     background-color: #e3d47c;
-    height:300px;
+    height:500px;
     margin-bottom: 20px;
+    position:relative;
 }
+.jumbo-text {
+    width: 50%;
+    position: absolute;
+    left:60px;
+    bottom:60px;
+}
+.jumbo-titolo{
+    font-size: 35px;
+}
+.testo{
+    font-size: 36px;
+}
+
+
+
+
+
 
 main{
     margin-bottom: 10px;

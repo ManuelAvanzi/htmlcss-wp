@@ -117,15 +117,22 @@ footer{
     margin-bottom: 20px;    
 }
 .immagine-left{
-    background:url(./img/img-1.jpg) no-repeat 50% 50%;
+    background:url(./img/img-1.jpg) no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 250px;    
 }
 .immagine-center{
-    background: url(./img/img-2.jpg) no-repeat 50% 40%;
+    background: url(./img/img-2.jpg) no-repeat ;
     background-size: cover;
+    height: 250px;
+    width: 100%;
 }
 .immagine-right{
-    background: url(./img/img-3.jpg) no-repeat 50% 50%;
+    background: url(./img/img-3.jpg) no-repeat ;
     background-size: cover;
+    height: 250px;
+    width: 100%;
 }
 
 
@@ -148,12 +155,13 @@ footer{
 
 
 .el{
-    background-color: #abcce4;
     width: 100%;
     height: 500px;
 }
 
-
+.box-banner{
+    height: 250px;
+}
 
 
 /* footer style */
